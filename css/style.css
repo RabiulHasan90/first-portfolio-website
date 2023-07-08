@@ -5,6 +5,8 @@ font-family: 'Roboto', sans-serif;
 nav{
   display: flex;
   justify-content: space-between;
+  margin: 0 200px;
+  background-color: azure;
 }
 nav > ul{
   display: flex;
@@ -43,4 +45,16 @@ font-size: 45px;
 font-weight: 800;
 
 
+}
+.banner{
+padding: 30px 30px 30px 150px;
+display: flex;
+align-items: center;
+
+}
+header{
+  background-color: antiquewhite;
+}
+.banner img{
+  width: 500px;
 }
