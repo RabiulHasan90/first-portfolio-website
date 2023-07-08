@@ -47,14 +47,52 @@ font-weight: 800;
 
 }
 .banner{
-padding: 30px 30px 30px 150px;
+padding: 30px 30px 0px 150px;
 display: flex;
 align-items: center;
+
 
 }
 header{
   background-color: antiquewhite;
+  background-image: url("../images/header_bg.png");
+  background-repeat: no-repeat;
+  background-position: bottom right;
 }
 .banner img{
   width: 500px;
+}
+.banner-grteating{
+  margin-bottom: 0;
+  color: #474747;
+
+}
+.banner-tittle{
+ margin-top: 5px;
+ font-size: 85px;
+font-style: normal;
+font-weight: 700;
+}
+/* main */
+.about{
+padding: 130px;
+border-radius: 10px;
+background-color: #FFF8F3;
+
+}
+.section_title{
+  text-align: center;
+
+font-size: 35px;
+
+font-weight: 700;
+
+}
+.sec_desc{
+  text-align: center;
+
+font-size: 18px;
+
+font-weight: 400;
+line-height: 30px;
 }
