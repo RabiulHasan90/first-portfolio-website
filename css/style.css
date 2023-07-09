@@ -96,3 +96,17 @@ font-size: 18px;
 font-weight: 400;
 line-height: 30px;
 }
+main{
+  max-width: 1140px;
+  margin: 0 auto;
+}
+.about_info_container{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.info-description{
+  font-weight: 500;
+  font-style: italic;
+  font-size: medium;
+}
